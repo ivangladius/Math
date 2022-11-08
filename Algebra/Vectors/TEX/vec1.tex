@@ -1,0 +1,141 @@
+
+\documentclass[12pt, a4paper]{article}
+\usepackage{amsmath}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage[document]{ragged2e}
+\graphicspath{{.}}
+
+\title{Vector Basics}
+\author{Maximilian Ivan Filipov}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\subsection{Basic Operators}
+
+\subsubsection{Addition}
+\begin{gather}
+  \begin{bmatrix}
+    1 & 1 \\
+    1 & 1 
+  \end{bmatrix}
+  +
+  \begin{bmatrix}
+    2 & 2 \\
+    2 & 2 
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+    3 & 3 \\
+    3 & 3 
+  \end{bmatrix}
+\end{gather}
+
+\subsubsection{Substraction}
+
+\begin{gather}
+  \begin{bmatrix}
+   3 & 3 \\
+   3 & 3 
+  \end{bmatrix}
+  -
+  \begin{bmatrix}
+   1 & 1 \\
+   1 & 1 
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+   2 & 2 \\
+   2 & 2 
+  \end{bmatrix}
+\end{gather}
+
+\subsubsection{Multiplication}
+
+\begin{gather}
+  \begin{bmatrix}
+   2 & 3 \\
+   4 & 5 
+  \end{bmatrix}
+  \times
+  \begin{bmatrix}
+   1 & 2 \\
+   1 & 2 
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+   5 & 14 \\
+   9 & 18 
+  \end{bmatrix}
+\end{gather}
+
+\subsubsection{Idendity Matrix}
+
+\begin{gather}
+  \begin{bmatrix}
+   3 & 4 \\
+   7 & 8 
+  \end{bmatrix}
+  \times
+  \begin{bmatrix}
+   1 & 0 \\
+   0 & 1 
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+   3 & 4 \\
+   7 & 8 
+  \end{bmatrix}
+\end{gather}
+
+\subsubsection{Swap Columns}
+\begin{gather}
+  \begin{bmatrix}
+   3 & 4 \\
+   7 & 8 
+  \end{bmatrix}
+  \times
+  \begin{bmatrix}
+   0 & 1 \\
+   1 & 0 
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+   4 & 3 \\
+   8 & 7 
+  \end{bmatrix}
+\end{gather}
+
+\subsubsection{Swap Rows}
+\begin{gather}
+  \begin{bmatrix}
+   0 & 1 \\
+   1 & 0 
+  \end{bmatrix}
+  \times
+  \begin{bmatrix}
+   3 & 4 \\
+   7 & 8 
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+   7 & 8 \\
+   3 & 4 
+  \end{bmatrix}
+\end{gather}
+
+
+
+
+
+
+\end{document}
+
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
